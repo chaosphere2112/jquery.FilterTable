@@ -13,7 +13,7 @@ types:
  - An object that is used to define data types.  Each object inside of it should have the name of the datatype that it represents as the field name.
  - Requires two methods:
 
-    1. constructor
+   1. constructor
       * Returns an instance of a custom filter object
         * Custom filter objects need 2 methods:
            1. parseFilter(value)
@@ -23,7 +23,7 @@ types:
                * Takes in an instance of whatever datatype this filter is for
                * Returns true or false based on whether or not the data should be filtered out.
   2. print(data)
-         * A function that takes in an instance of whatever datatype the filter is for and returns a string representation of it.
+    * A function that takes in an instance of whatever datatype the filter is for and returns a string representation of it.
 
 columns:
 
