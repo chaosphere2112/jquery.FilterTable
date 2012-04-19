@@ -23,7 +23,7 @@ types:
                * Takes in an instance of whatever datatype this filter is for
                * Returns true or false based on whether or not the data should be filtered out.
   2. print(data)
-    * A function that takes in an instance of whatever datatype the filter is for and returns a string representation of it.
+      * A function that takes in an instance of whatever datatype the filter is for and returns a string representation of it.
 
 columns:
 
